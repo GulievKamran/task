@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 48%;
+}
+.pictures {
+    display: inline-block;
+}
+.title, .date {
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    padding: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 50px;
+} 
+
+.Lorem {
+    padding: 20px;
+    text-align: justify;
+}
